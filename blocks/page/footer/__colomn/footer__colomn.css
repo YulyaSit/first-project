@@ -1,0 +1,4 @@
+.footer__colomn {
+    display: flex;
+    flex-direction: column;
+}

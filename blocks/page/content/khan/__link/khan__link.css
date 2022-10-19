@@ -1,0 +1,8 @@
+.khan__link {
+    text-decoration: none;
+    color: #2f80ed;
+}
+
+.khan__link:hover {
+    opacity: 0.5;
+}

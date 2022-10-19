@@ -1,0 +1,67 @@
+@import url(../blocks/page/page.css);
+@import url(../fonts/fonts.css);
+.footer {
+    min-height: 350px;
+    width:100%;
+    background-color: black;
+    color: white;
+}
+
+.footer__colomns {
+    width: 90%;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
+    height: 250px;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+
+.footer__colomn {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__colomn_content_copyright {
+    flex-basis: 711px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo_place_footer {
+    width: 228px;
+    height: 32px;
+}
+
+.footer__author {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    margin-top: 0;
+}
+
+.footer__author:last-of-type {
+    margin-bottom: 0;
+}
+
+.footer__social-icon {
+    width: 16px;
+    height: 16px;
+}
+
+
+.footer__colomn-link {
+    height: 18px;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.footer__colomn-heading {
+    height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 0;
+}

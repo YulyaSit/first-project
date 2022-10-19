@@ -1,0 +1,9 @@
+.footer__author {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    margin-top: 0;
+}
+
+.footer__author:last-of-type {
+    margin-bottom: 0;
+}
